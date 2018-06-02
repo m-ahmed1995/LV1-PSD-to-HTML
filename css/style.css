@@ -156,12 +156,23 @@ body {
     color: #666;
 }
 
-.about-me .info .hobbies > div {
+.about-me .info .hobbies .content {
     float: left;
     width: 50%;
     min-height: 100px
 }
 .about-me .info .hobbies > div h3 {color: #555}
+.about-me .info .hobbies .content .icon {
+    float: left;
+    width: 15%
+}
+
+.about-me .info .hobbies .content h3 {color: #555}
+
+.about-me .info .hobbies .content .text {
+    float: left;
+    width: 85%
+}
 
 
 /*End About Section*/
